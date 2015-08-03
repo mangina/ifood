@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/lato-bold.eot);
+    src: url(../fonts/lato-bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/lato-bold.svg),
+        url(../fonts/lato-bold.woff),
+        url(../fonts/lato-bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/lato-regular.eot);
+    src: url(../fonts/lato-regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/lato-regular.svg),
+         url(../fonts/lato-regular.woff),
+         url(../fonts/lato-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/lato-regular.eot);
+    src: url(../fonts/lato-regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/lato-regular.svg),
+    url(../fonts/lato-regular.woff),
+    url(../fonts/lato-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/lato-light.eot);
+    src: url(../fonts/lato-light.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/lato-light.svg),
+    url(../fonts/lato-light.woff),
+    url(../fonts/lato-light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Hairline;
+    src: url(../fonts/lato-Hairline.eot);
+    src: url(../fonts/lato-Hairline.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/lato-Hairline.svg),
+    url(../fonts/lato-Hairline.woff),
+    url(../fonts/lato-Hairline.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Hairline-Italic;
+    src: url(../fonts/lato-HairlineItalic.eot);
+    src: url(../fonts/lato-HairlineItalic.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/lato-HairlineItalic.svg),
+    url(../fonts/lato-HairlineItalic.woff),
+    url(../fonts/lato-HairlineItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Bold-Italic;
+    src: url(../fonts/lato-bold-italic.eot);
+    src: url(../fonts/lato-bold-italic.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/lato-bold-italic.svg),
+    url(../fonts/lato-bold-italic.woff),
+    url(../fonts/lato-bold-italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font__type__lato__bold {
+    font-family: Lato-Bold;
+}
+
+.font__type__lato__regular {
+    font-family: Lato-Regular;
+}
+
+.font__type__times-new-roman {
+    font-family: Times New Roman;
+}
+
+.font__type__lato__light {
+    font-family: Lato-Light;
+}
+
+.font__type__lato__hairline {
+    font-family: Lato-Hairline;
+}
+
+.font__type__lato__hairline__italic {
+    font-family: Lato-Hairline-Italic;
+}
+
+.font__type__lato__bold__italic {
+    font-family: Lato-Bold-Italic;
+}

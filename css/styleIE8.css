@@ -1,0 +1,440 @@
+.wrap__inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.wrap__inner__description, .wrap__inner__reviews, .wrap__inner__gallery-recipes, .wrap__inner__statistics {
+    text-align: center;
+    width: 1180px;
+}
+
+.wrap__inner__gallery-recipes {
+    width: 1600px;
+}
+
+/*HEADER*/
+
+.content-top{
+    height: 880px;
+    background: #831b42 url(../img/main-imageIE.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.content-top-header {
+    padding-top: 21px;
+}
+
+.content-top__logo {
+    display: inline-block;
+}
+
+.content-top__list {
+    padding: 29px 0;
+    float: right;
+    text-transform: uppercase;
+}
+
+.content-top__list li{
+    position: relative;
+    display: inline-block;
+}
+
+.content-top__list a {
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+}
+
+.content-top__list li ul{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.content-top__list li:hover ul{
+    display: block;
+}
+
+.content-top-caption {
+    position: absolute;
+    top: 275px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.content-top-caption__title-s{
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    font-style: italic;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    margin-bottom: 17px;
+}
+
+.content-top-caption__title-l {
+    font-size: 100px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.content-top-caption__button a {
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 22px 79px;
+}
+
+.content-top-caption__button a:hover {
+    background-color: #fff;
+    color: #831b42;
+}
+
+.content-top__list__submenu a {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.content-top-caption__subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 69px;
+}
+
+.content-top-caption__subtitle__text {
+    position: relative;
+}
+
+.content-top-caption__subtitle__text-underline {
+    position: relative;
+    text-decoration: underline;
+}
+
+/*SERVICE-DESCRIPTION*/
+
+.service-description {
+    padding: 100px 0 96px;
+    background-color: #fff;
+}
+
+.service-description-item {
+    display: inline-block;
+    width: 360px;
+    vertical-align: top;
+}
+.service-description-item:nth-child(2*n+2) {
+    width: 380px;
+}
+
+.service-description-icon{
+    height: 107px;
+    margin-bottom: 27px;
+}
+
+.service-description__type__get {
+    width: 107px;
+    height: 107px;
+    display: inline-block;
+    position: relative;
+    background: url(../img/get.png) no-repeat;
+}
+
+.service-description__type__inspired{
+    background-position: 0 0px;
+}
+
+.service-description__type__rewarded{
+    background-position: 0 -107px;
+}
+.service-description__type__social{
+    background-position: 0 -214px;
+}
+
+.service-description-title, .application-setup__content__title {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-description__horizontal-line, .application-setup__horizontal-line, .gallery-recipes__horizontal-line {
+    width: 88px;
+    color: #f57365;
+    background-color: #f57365;
+    border: 0; border-top: 1px solid #f57365;
+}
+
+.service-description-text, .application-setup__content__text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.service-description__margin__left {
+    margin-right: 40px;
+}
+
+/*App;ication setup*/
+
+.application-setup {
+    height: 880px;
+    margin: 100px 0 0;
+    background-color: #f7f7f7;
+}
+
+.application-setup__block {
+    display: inline-block;
+    background: url(../img/iPhone-5s.png) no-repeat;
+    background-position: 0px 100px;
+}
+
+.application-setup__gallery {
+    float: left;
+    margin-right: 100px;
+    height: 879px;
+    width: 540px;
+    position: relative;
+}
+
+.application-setup__gallery__image {
+    position: relative;
+    left: 43px;
+    top: 260px;
+}
+.application-setup__content {
+    margin: 182px 0 0;
+    float: left;
+    width: 494px;
+}
+
+.application-setup__content__text{
+    margin: 9px 0 28px;
+    text-align: left;
+}
+
+.application-setup__content__title{
+    text-align: left;
+}
+
+.application-setup__horizontal-line {
+    text-align: left;
+    margin-left: 0;
+}
+
+.application-setup__button-platform {
+    height: 39px;
+    display: inline-block;
+    position: relative;
+    background: url("../img/button.png") center center no-repeat;
+}
+
+.application-setup__button-platform:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4a3949;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.application-setup__button-platform__ios {
+    background-position: 0 0;
+    width: 112px;
+    margin-right: 10px;
+}
+
+.application-setup__button-platform__android {
+    background-position: 0 -39px;
+    width: 120px;
+}
+
+/*REVIEWS*/
+
+.reviews {
+    background-color: #4a3949;
+}
+
+.reviews-fon {
+    background: url("../img/rewive-fon.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.person-icon {
+    padding-top: 79px;
+    margin-bottom: 27px;
+}
+
+.progress-panel {
+    width: 50px;
+    height: 10px;
+    background: url("../img/progress-panel.png") no-repeat;
+    margin: 10px auto;
+    padding-bottom: 80px;
+}
+
+.progress-select {
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    z-index: 4;
+    background: url("../img/progress-select.png") no-repeat;
+}
+
+.next-slide {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -6px;
+    color: #831b42;
+}
+
+.next-slide:nth-child(2) {
+    margin-left: 14px;
+}
+
+.next-slide:nth-child(3) {
+    margin-left: 34px;
+}
+
+.content-switch{
+    display: none;
+}
+
+.content-switch:first-child {
+    display: block;
+}
+
+.person-comment {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.person-information {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+/*GALLARY RECIPES*/
+
+.gallery-recipes {
+    padding: 100px 0 0;
+    background: #fff;
+	overflow:hidden;
+}
+
+.gallery-recipes__caption {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.gallery-recipes-item {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.gallery-recipes__horizontal-line {
+    margin-bottom: 39px;
+    margin-top: 8px;
+}
+
+.gallery-recipes__text {
+    position: absolute;
+    top: 76px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.gallery-recipes__subtitle {
+    position: relative;
+    font-size: 15.37px;
+    color: #fff;
+}
+
+.gallery-recipes__title {
+    position: relative;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.recipes-image {
+    vertical-align: bottom;
+    margin: -2px -2px;
+}
+
+/*STATISTICS*/
+
+.statistics {
+    background-color: #fff;
+    padding: 59px 0 60px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.statistics-item {
+    display: inline-block;
+    width: 140px;
+    margin-right: 132px;
+    text-align: center;
+}
+
+.statistics-item:nth-child(5) {
+    margin-right: 0;
+}
+
+.statistics__number {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.statistics__description {
+    font-size: 16px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 40px 0 37px;
+}
+
+.footer__year {
+    display: inline-block;
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.footer__design {
+    float: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #8b8b8b;
+}
+
+.footer__design__color__black {
+    color: #000;
+    text-decoration: none;
+}
