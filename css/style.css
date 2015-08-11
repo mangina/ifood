@@ -249,7 +249,6 @@
     border-radius: 5px;
     background-color: #4a3949;
     opacity: 0.7;
-    filter: alpha(opacity=70);
 }
 
 .application-setup__button-platform__ios {
