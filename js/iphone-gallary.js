@@ -1,26 +1,27 @@
-var numberImage = 4, i = 0, opacity = 100, timeout;
+$(function() {
+    var gallery = $('#slider'),
+        el =  gallery.find('img'),
+        indexImg = 1,
+        indexMax = el.length;
 
-function nextImage() {
-    opacity--;
-    var k = i + 1;
-    var image_now = 'image_' + i;
-    if (i == numberImage)
-        k = 1;
-    var image_next = 'image_' + k;
-    document.getElementById(image_now).style.opacity = opacity/100;
-    document.getElementById(image_now).style.filter = 'alpha(opacity='+ opacity +')';
-    document.getElementById(image_next).style.opacity = (100-opacity)/100;
-    document.getElementById(image_next).style.filter = 'alpha(opacity='+ (100-opacity) +')';
-    timeout = setTimeout("nextImage()",1);
-    if (opacity==1) {
-        opacity = 100;
-        clearTimeout(timeout);
+    function change() {
+        el.fadeOut(500);
+        el.filter(':nth-child('+indexImg+')').fadeIn(500);
     }
-}
-setInterval (
-    function() {
-        i++;
-        if (i > numberImage) i=1;
-            nextImage();
-    }, 1000
-);
+
+    function autoCange() {
+        indexImg++;
+        if(indexImg > indexMax) {
+            indexImg = 1;
+        }
+        change();
+    }
+    var interval = setInterval(autoCange, 3000);
+
+    gallery.mouseover(function() {
+        clearInterval(interval);
+    });
+    gallery.mouseout(function() {
+        interval = setInterval(autoCange, 3000);
+    });
+});
