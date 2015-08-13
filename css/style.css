@@ -273,55 +273,17 @@
     background-size: cover;
 }
 
-.person-icon {
-    padding-top: 79px;
-    margin-bottom: 27px;
-}
-
-.progress-panel {
-    width: 50px;
-    height: 10px;
-    background: url("../img/progress-panel.png") no-repeat;
-    margin: 10px auto;
-    padding-bottom: 80px;
-}
-
-.progress-select {
-    width: 10px;
-    height: 10px;
-    display: block;
-    position: absolute;
-    z-index: 4;
-    background: url("../img/progress-select.png") no-repeat;
-}
-
-.next-slide {
-    display: block;
-    position: absolute;
-    z-index: 5;
-    width: 20px;
-    height: 20px;
-    font-size: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin-left: -6px;
-    color: #831b42;
-}
-
-.next-slide:nth-child(2) {
-    margin-left: 14px;
-}
-
-.next-slide:nth-child(3) {
-    margin-left: 34px;
-}
-
-.content-switch{
+.content-switch {
     display: none;
 }
 
 .content-switch:first-child {
     display: block;
+}
+
+.person-icon {
+    padding-top: 79px;
+    margin-bottom: 23px;
 }
 
 .person-comment {
@@ -330,13 +292,50 @@
     font-size: 30px;
     color: #fff;
     line-height: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
 .person-information {
     font-size: 20px;
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+}
+
+.reviews-slider {
+    position:relative;
+}
+.reviews-slider__content {
+    height: 360px;
+    overflow: hidden;
+    position:relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+.slider-controls {
+    position: relative;
+    top: 12px;
+    padding-bottom: 80px;
+}
+
+.slider-controls .control-slide {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../img/radioBg.png) 0 -20px no-repeat;
+}
+
+.slider-controls .control-slide:hover {
+    cursor:pointer;
+    background-position: 0 0;
+}
+
+.slider-controls .control-slide.active {
+    background-position: 0 0;
 }
 
 /*GALLARY RECIPES*/
