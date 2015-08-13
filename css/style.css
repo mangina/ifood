@@ -3,12 +3,12 @@
     margin: 0 auto;
 }
 
-.wrap__inner__description, .wrap__inner__reviews, .wrap__inner__gallery-recipes, .wrap__inner__statistics {
+.description__text-align__center, .reviews__text-align__center, .gallery-recipes__text-align__center, .statistics__text-align__center {
     text-align: center;
     width: 1180px;
 }
 
-.wrap__inner__gallery-recipes {
+.gallery-recipes__text-align__center {
     width: 1600px;
 }
 
